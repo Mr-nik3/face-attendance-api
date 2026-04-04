@@ -1,2 +1,4 @@
 [phases.setup]
 nixPkgs = ["libGL", "libxcb", "glib", "libSM", "libXext", "libXrender"]
+[phases.setup]
+nixPkgs = ["libGL", "glib"]
